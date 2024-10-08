@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Kantin Informatika</title>
+    <style>
+        header, section, footer, aside, nav, article, figure, figcaption {
+            display: block;
+        }
+
+        body {
+            background-image: url("https://undsgn.com/wp-content/uploads/2018/04/ltotbngnzzu-uai-1600x900.jpg");
+            background-position: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            line-height: 1.4em;
+            margin: 0;
+            color: #ffffff;
+        }
+
+        .wrapper {
+            width: 940px;
+            margin: 20px auto;
+            border: 2px solid #000000;
+            background-color: #110a28;
+        }
+
+        header {
+            height: 160px;
+            background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20190222/ourmid/pngtree-crayfish-food-food-condiment-black-horizontal-banner-goodsseasoningblackhorizontal-bannerdelicious-image_50376.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            padding: 50px 0 30px;
+            font-size: 50px;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        nav, footer {
+            clear: both;
+            color: aliceblue;
+            background-color: rgb(46, 45, 79);
+            height: 30px;
+        }
+
+        nav ul {
+            margin: 0;
+            padding: 5px 0 5px 30px;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 40px;
+        }
+
+        nav li a {
+            color: rgb(255, 255, 255);
+        }
+
+        nav li a:hover, nav li a.current {
+            color: #696fc7;
+        }
+
+        section.courses {
+            float: left;
+            width: 659px;
+            border-right: 1px solid #c6c4c4;
+        }
+
+        article {
+            clear: both;
+            overflow: auto;
+            width: 100%;
+        }
+
+        hgroup {
+            margin-top: 40px;
+        }
+
+        figure {
+            float: left;
+            width: 290px;
+            height: 220px;
+            padding: 5px;
+            margin: 20px;
+            border: 1px solid #eeeeee;
+        }
+
+        figure img {
+            width: 290px;
+            height: 190px;
+        }
+
+        figcaption {
+            font-size: 90%;
+            text-align: left;
+        }
+
+        aside {
+            width: 230px;
+            float: left;
+            padding: 0 0 0 20px;
+        }
+
+        aside section a {
+            display: block;
+            padding: 10px;
+            border-bottom: 1px solid #eeeeee;
+        }
+
+        aside section a:hover {
+            color: #c99c6c;
+            background-color: #efefef;
+        }
+
+        a {
+            color: #c99c6c;
+            text-decoration: none;
+        }
+
+        h1, h2, h3 {
+            font-weight: normal;
+        }
+
+        h2 {
+            margin: 10px 0 5px;
+        }
+
+        h3 {
+            margin: 0 0 10px;
+            color: #c99c6c;
+        }
+
+        aside h2 {
+            padding: 30px 0 10px;
+            color: #ffffff;
+        }
+
+        footer {
+            font-size: 80%;
+            padding: 7px 0 0 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Kantin Informatika</h1>
+            <nav>
+                <ul>
+                    <li><a href="" class="current">Beranda</a></li>
+                    <li><a href="">Daftar Makanan</a></li>
+                    <li><a href="">Tentang</a></li>
+                    <li><a href="">Kontak</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="courses">
+            <article>
+                <figure>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Made%27s_Warung_Nasi_Campur.jpg/1200px-Made%27s_Warung_Nasi_Campur.jpg" alt="Nasi Campur">
+                    <figcaption>Nasi Campur</figcaption>
+                </figure>
+                <hgroup>
+                    <h2>Nasi Campur</h2>
+                    <h3>Nasi</h3>
+                </hgroup>
+                <p>Nasi campur adalah nasi yang dilengkapi dengan lauk pauk dengan berbagai varian sesuai yang diinginkan.</p>
+                <p>Mulai dari Rp 10.000</p>
+            </article>
+            <article>
+                <figure>
+                    <img src="https://asset.kompas.com/crops/1g9P4L73NLmOshdRUptmBe_oQgQ=/0x0:698x465/750x500/data/photo/2020/12/07/5fce3837c4f6d.jpg" alt="Kwetiau">
+                    <figcaption>Kwetiau</figcaption>
+                </figure>
+                <hgroup>
+                    <h2>Kwetiau</h2>
+                    <h3>Mie</h3>
+                </hgroup>
+                <p>Kwetiau adalah mie lebar yang dilengkapi dengan tauge, sayur, dan bumbu yang nikmat.</p>
+                <p>Rp 15.000</p>
+            </article>
+        </section>
+
+        <aside>
+            <section class="popular-menu">
+                <h2>Menu Populer</h2>
+                <a href="">Nasi Campur</a>
+                <a href="">Kwetiau</a>
+            </section>
+            <section class="contact-details">
+                <h2>Kontak</h2>
+                <p>+62</p>
+            </section>
+        </aside>
+
+        <footer>
+            &copy; Kantin Informatika Institut Teknologi Sepuluh Nopember
+        </footer>
+    </div>
+</body>
+
+</html>
